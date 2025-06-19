@@ -303,7 +303,7 @@ def vertical_takeoff_and_land(cf, drone_controller):
             print("이륙 완료!")
             break
             
-        time.sleep(0.1)  # 100Hz 제어 주기
+        time.sleep(0.01)  # 100Hz 제어 주기
     
     # 4. 호버링 단계
     print(f"{HOVER_TIME}초 동안 호버링...")
